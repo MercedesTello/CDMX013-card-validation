@@ -1,0 +1,105 @@
+body{/* selctores*/
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 18px;
+    background-image: url("/imagenes/fondo2.jpg");/*com la diagonal busca la carpeta dela imagen*/
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+header{
+    background: #9d5353;
+}
+.valida{
+    background-color: rgb(216, 243, 63);
+    color: rgb(55, 7, 41);
+
+}
+.invalida{
+    background-color: red;
+    color: white;
+}
+
+
+.box-logo{
+    display:inline-block;
+}
+
+.header-logo{
+    width: 60px;
+    display:inline-block;/*coloca la imagen en linea*/
+}
+h1 {
+    font-family: "arial";
+    color: rgb(181, 204, 204);/* propiedaddes del elemento*/
+    display: inline-block;
+    margin: 0 0 10px 20px ;
+} 
+
+h2 {
+    text-align: center;
+    color: rgb(54, 9, 54);/* propiedaddes del elemento*/
+ }
+
+ .logo {
+    text-align: center;
+    display: inline-block;
+    width: 70%;
+ }
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 10px; /*marca la separación entre las palabras en la barra de navegación*/
+    display: inline-block;
+}
+
+li {
+    width: 150px;
+    display:inline-block; /*hace que la etiqueta de bloque tenga la catacteristica de una despues de otra*/
+    text-align:right; /*va a alinear al ancho del total de las palabras y si fuese en otra etiqueta sería al total de la línea de nav*/
+    
+}
+
+ a { /* al dar la etiqueta de tipo bloque, con block ocupa el espacio disponible de la etiqueta li*/
+     text-decoration: none;
+     color: #e9d5da;
+     display: block;
+     font-size: 10;
+
+ }
+
+ .imagen {
+    background-image: url("/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+input{
+    background-color: rgb(154, 202, 148);
+    
+}
+
+.button {
+    background-color: #c7458a;
+  border: rgb(47, 13, 78);
+  color: white;
+  padding: 8px 12px;
+  text-align:center;
+  text-decoration: rgb(172, 135, 207);
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.contenedor{
+    width: 45%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 65% 45%;
+}
