@@ -1,4 +1,4 @@
-# ***Proyecto 1 Card Validation by Merc Tello**-
+# ***Proyecto 1 Card Validation by Merc Tello***
 
 
 ***
@@ -27,10 +27,13 @@ Al dar click en el botón "Validar" mostrará si la tarjeta es correcta o incorr
 
 Al ingresar una tarjeta invalida o mal capturada, le mostrará al cliente la leyenda indicándole que su tarjeta es invalida y tendrá que ingresar los datos nuevamente.
 
-###Feedback
+### Feedback
 
 Mis compañeras me indicaron los cambios siguientes.
-*en el figma me señalaron el cambio de colores.
+
+* En el figma me señalaron el cambio de colores.
+
 * El fondo del disco principal fuese sin el cuadrado.
-*La paleta de colores fuera diferente porque se perdían los colores.
+
+* La paleta de colores fuera diferente porque se perdían los colores.
 
