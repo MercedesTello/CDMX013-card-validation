@@ -18,5 +18,4 @@ const resultado= document.getElementById("resultado");
     console.log (creditCardMaskify)
     creditCardNumber.value= creditCardMaskify;
     console.log(creditCardNumber);
-      //incertar creditcardmaskify en mi elemento con id tarjeta
     })

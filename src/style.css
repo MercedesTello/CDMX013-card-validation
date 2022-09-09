@@ -1,7 +1,7 @@
 body{/* selctores*/
     font-family: 'Nanum Pen Script', cursive;
     font-size: 18px;
-    background-image: url("/imagenes/fondo2.jpg");/*com la diagonal busca la carpeta dela imagen*/
+    background-image: url("../src/imagenes/fondo2.jpg");/*com la diagonal busca la carpeta dela imagen*/
     background-size: cover;
     background-repeat: no-repeat;
 } 
