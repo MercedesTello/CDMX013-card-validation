@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 body{/* selctores*/
     font-family: 'Nanum Pen Script', cursive;
     font-size: 18px;
@@ -8,6 +12,11 @@ body{/* selctores*/
 
 header{
     background: #9d5353;
+}
+#options{
+    display: flex;
+    margin: 0;
+    height: 4rem;
 }
 .valida{
     background-color: rgb(216, 243, 63);
@@ -25,19 +34,26 @@ header{
 }
 
 .header-logo{
-    width: 60px;
+    width: 88px;
     display:inline-block;/*coloca la imagen en linea*/
 }
 h1 {
     font-family: "arial";
-    color: rgb(181, 204, 204);/* propiedaddes del elemento*/
-    display: inline-block;
-    margin: 0 0 10px 20px ;
+    color: rgb(181, 204, 204);
+    position: absolute;
+    margin: 0 0 10px 20px;
+    margin-top: -4rem;
+    margin-left: 6rem;
 } 
 
 h2 {
     text-align: center;
     color: rgb(54, 9, 54);/* propiedaddes del elemento*/
+    margin-top: 5rem
+ }
+ p{
+    font-size: 1.3rem;
+    margin-top: 5rem;
  }
 
  .logo {
@@ -61,11 +77,12 @@ li {
 }
 
  a { /* al dar la etiqueta de tipo bloque, con block ocupa el espacio disponible de la etiqueta li*/
-     text-decoration: none;
-     color: #e9d5da;
-     display: block;
-     font-size: 10;
-
+    text-decoration: none;
+    color: #e9d5da;
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    display: block;
+    font-size: 10;
  }
 
  .imagen {
@@ -76,8 +93,13 @@ li {
 
 input{
     background-color: rgb(154, 202, 148);
-    
+    border-radius: 9.8px;
+    height: 1.5rem;
+    font-size: 1rem;
+    color: darkgreen;
 }
+
+    
 
 .button {
     background-color: #c7458a;
@@ -92,14 +114,39 @@ input{
 }
 
 .contenedor{
-    width: 45%;
-    margin: auto;
-    padding: 50px 0;
-    text-align: center;
-    display: inline-block;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
+        width: 50%;
+        margin-left: 205px;
+        padding: 50px 0;
+        text-align: center;
+        display: inline-block;
+        box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    }
 .grid{
     display: grid;
-    grid-template-columns: 65% 45%;
+    grid-template-columns: 55% 45%;
+}
+#discos{
+    width: 502px;
+    margin-top: 2rem;
+}
+#title{
+    color: #c7458a;
+    font-size: 1.6rem;
+}
+#info{
+    font-size: 1.6rem;
+    margin-left: -8rem;
+}
+#botonValidar{
+    border-radius: 10px;
+    height: 1.7rem;
+    width: 4rem;
+    background-color: #2d89cf;
+    color: aliceblue;
+    font-size: 1rem;
+}
+#final{
+    background-color: #9d535399;
+    height: 4rem;
+    margin-top: -4.899999999999999rem;
 }

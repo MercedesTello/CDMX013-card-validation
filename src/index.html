@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Card Validation</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-  </head>
-    
-  <body>
-    
-    <header><!--aqui va todo lo del encaberzado de la pagina-->
-      <nav>
-        <div class="box-logo"> 
-          <img class="header-logo" src="./imagenes/disco.jpg" alt="">
-          <h1>reGGcord Box</h1>
-        </div>
-        <ul>             <!--.esta es etiqueta de tipo bloque y es hija de la etiqueta nav-->
-           <!--la etiqueta nav es para navegar en el menu-->
-          <li><a href="#">Acerca de</a></li>
-          <li><a href="#">Productos</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Subastas</a></li>
-          <li><a href="#">Viniles en oferta</a></li>
-          <li><a href="#">Mas</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <div class="grid"> 
-      <div class="contenedor">
-        
-        <h3>*Oferta* <br>Travelers All Stars vinil de colección</h3>
-        <img src="./imagenes/travelers.jpg" height= "150" alt="Travelers All Stars">
-        <p> $40usd</p>
-        <label for="nombre">Nombre completo:</label> 
-        <input type="text" name= "nombre" id="cliente" placeholder="nombre completo">
+
+<head>
+  <meta charset="utf-8">
+  <title>Card Validation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header><!--aqui va todo lo del encaberzado de la pagina-->
+    <nav id="options">
+      <div class="box-logo">
+        <img class="header-logo" src="./imagenes/disco.jpg" alt="">
+        <h1>reGGcord Box</h1>
+      </div>
+      <ul> <!--.esta es etiqueta de tipo bloque y es hija de la etiqueta nav-->
+        <!--la etiqueta nav es para navegar en el menu-->
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Subastas</a></li>
+        <li><a href="#">Viniles en oferta</a></li>
+        <li><a href="#">Mas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="grid">
+    <div class="contenedor">
+
+      <h3 id="title">Oferta <br>Travelers All Stars vinil de colección</h3>
+      <img src="./imagenes/travelers.jpg" height="250" alt="Travelers All Stars">
+      <p> $40usd</p>
+      <section id="info">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" name="nombre" id="cliente" placeholder="nombre completo">
         <div>
-          <label for="tipo de tarjeta">tipo de Tarjeta:</label> 
-          <input type="text" name= "tarjeta" id="tipo" placeholder="Visa o Mastercard">
-          </div>
+          <label for="tipo de tarjeta">tipo de Tarjeta:</label>
+          <input type="text" name="tarjeta" id="tipo" placeholder="Visa o Mastercard">
+        </div>
         <label for="tarjeta">No. de Tarjeta:</label>
-        <input type="numero" placeholder="Ingresa tu tarjeta" id="tarjeta" size="16" tabindex="16" maxlength="16"/>
+        <input type="numero" placeholder="Ingresa tu tarjeta" id="tarjeta" size="16" tabindex="16" maxlength="16" />
         <div id="resultado"></div>
         <button id="botonValidar">Validar </button>
-      </div>
-
-      <div class="logo">
-        <h2><b>Dónde entre más viejo, más valioso</b></h2>
-        <img src="./imagenes/vinil.png" height="400">
-      </div>
+      </section>
     </div>
-         
 
-    <footer>
-      <p>©Copyright 2050 de nadie. Todos los derechos revertidos.</p>
-    </footer>
-    <script src="index.js" type="module"></script>
-  </body>
+    <div class="logo">
+      <h2><b>Dónde entre más viejo, más valioso</b></h2>
+      <img src="./imagenes/vinil.png" id="discos">
+    </div>
+  </div>
+
+
+  <footer id="final">
+    <p>©Copyright 2050 de nadie. Todos los derechos revertidos.</p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
 
 </html>
