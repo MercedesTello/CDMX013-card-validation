@@ -61,8 +61,14 @@ h2 {
 }
 
 p {
-    font-size: 1.3rem;
-    margin-top: 1rem;
+    font-size: 1.7rem;
+    margin-top: 19rem;
+    background-color: #b591c94d;
+    position: absolute;
+    height: 1.5rem;
+    width: 6rem;
+    left: 13rem;
+    border-radius: 10px;
 }
 
 .logo {
@@ -130,12 +136,16 @@ input {
 }
 
 .contenedor {
-    width: 32rem;
+    display: flex;
+    width: 34rem;
+    height: 33rem;
     margin-left: 48px;
     padding: 50px 0;
     text-align: center;
     position: absolute;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    flex-direction: column;
+    top: 6rem;
 }
 
 .grid{
@@ -156,7 +166,9 @@ display: flex;
 
 #info {
     font-size: 1.6rem;
-    margin-left: -8rem;
+    margin-left: 5rem;
+    position: absolute;
+    top: 25rem;
 }
 
 #botonValidar {
@@ -169,19 +181,43 @@ display: flex;
 }
 
 #final {
-    background-color: #9d535399;
+    background-color: #9d5353f5;
     height: 4rem;
     position: absolute;
     top: 47.2rem;
-    width: 73.6rem;
+    width: 73.7rem;
 }
 
 #sound {
-    color: antiquewhite;
+    position: absolute;
+    top: 20rem;
+    left: 7rem;
+    height: 1rem;
 }
+
 #leyend{
     margin-left: 44rem;
     color: #190445;
     position: absolute;
     font-size: 2rem;
+}
+#love{
+    width: 13rem;
+    height: 10rem;
+    position: absolute;
+    top: 9rem;
+    left: 10rem;
+    animation-name: girarb;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+#price{
+    position: absolute;
+    top: 3rem;
+}
+#final1{
+    width: 40rem;
+    bottom: 2rem;
 }

@@ -34,11 +34,11 @@
     <div class="contenedor">
       
       <h3 id="title">Oferta <br>Travelers All Stars vinil de colección</h3>
-      <img src="./imagenes/image 23.png" height="250" alt="Travelers All Stars">
+      <img id="love" src="./imagenes/image 23.png" height="250" alt="Travelers All Stars">
       <audio controls id="sound">
         <source src="./audio/travelers.mp3" type="audio/mpeg">
       </audio>
-      <p> $40usd</p>
+      <p id="price"> $40 dlls</p>
       <section id="info">
         <label for="nombre">Nombre completo:</label>
         <input type="text" name="nombre" id="cliente" placeholder="nombre completo">
@@ -56,12 +56,21 @@
     <div class="logo">
       <h2 id="leyend"><b>Dónde entre más viejo, más valioso</b></h2>
       <img src="./imagenes/vinil.png" id="discos">
+     <style>
+       @keyframes girarb{
+        from{
+          transform: rotate(360deg);
+        }to{
+          transforme: rotate(0deg);
+        }
+      }
+     </style>
     </div>
   </div>
 
 
   <footer id="final">
-    <p>©Copyright 2050 de nadie. Todos los derechos revertidos.</p>
+    <p id="final1">©Copyright 2050 de nadie. Todos los derechos revertidos.</p>
   </footer>
   <script src="index.js" type="module"></script>
 </body>
