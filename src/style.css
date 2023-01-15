@@ -95,16 +95,28 @@ li {
     text-align: right;
     /*va a alinear al ancho del total de las palabras y si fuese en otra etiqueta sería al total de la línea de nav*/
 
+
 }
 
 a {
     text-decoration: none;
+    cursor: pointer;
     color: #e9d5da;
     margin-top: 2rem;
     font-size: 1.5rem;
     position: absolute;
     font-size: 10;
     margin-left: 3rem;
+
+}
+
+a:focus,
+a:hover {
+    border-bottom: 2px solid;
+}
+
+a:active {
+    color: rgb(136, 230, 86);
 }
 
 .imagen {
