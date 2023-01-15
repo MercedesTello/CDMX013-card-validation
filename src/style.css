@@ -1,19 +1,21 @@
 * {
     margin: 0;
 }
-@media screen and (min-width: 480px) and (max-width: 1180px){
-body {
-    /* selctores*/
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 18px;
-    background-image: url("./imagenes/fondo2.jpg");
-    /*com la diagonal busca la carpeta dela imagen*/
-    background-size: cover;
-    background-repeat: no-repeat;
+
+@media screen and (min-width: 480px) and (max-width: 1180px) {
+    body {
+        /* selctores*/
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 18px;
+        background-image: url("./imagenes/fondo2.jpg");
+        /*com la diagonal busca la carpeta dela imagen*/
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
-}
+
 header {
-    background: #9d5353;
+    background: #590209;
 }
 
 #options {
@@ -45,12 +47,13 @@ header {
 }
 
 h1 {
-    font-family: "arial";
-    color: rgb(181, 204, 204);
+    font-family: 'Vintage Magic';
+    color: #E09F3E;
+    font-size: 2.1rem;
     position: absolute;
     margin: 0 0 10px 20px;
     margin-top: -4rem;
-    margin-left: 6rem;
+    margin-left: 6rem
 }
 
 h2 {
@@ -60,10 +63,9 @@ h2 {
     margin-top: 5rem
 }
 
-p {
+#price {
     font-size: 1.7rem;
     margin-top: 19rem;
-    background-color: #b591c94d;
     position: absolute;
     height: 1.5rem;
     width: 6rem;
@@ -96,13 +98,11 @@ li {
 }
 
 a {
-    /* al dar la etiqueta de tipo bloque, con block ocupa el espacio disponible de la etiqueta li*/
     text-decoration: none;
     color: #e9d5da;
     margin-top: 2rem;
     font-size: 1.5rem;
     position: absolute;
-    /* display: block; */
     font-size: 10;
     margin-left: 3rem;
 }
@@ -114,11 +114,11 @@ a {
 }
 
 input {
-    background-color: rgb(154, 202, 148);
+    background-color: rgb(85 92 84 / 41%);
     border-radius: 9.8px;
     height: 1.5rem;
     font-size: 1rem;
-    color: darkgreen;
+    color: #e3efe3;
 }
 
 
@@ -148,8 +148,8 @@ input {
     top: 6rem;
 }
 
-.grid{
-display: flex;
+.grid {
+    display: flex;
 
 }
 
@@ -160,16 +160,19 @@ display: flex;
 }
 
 #title {
-    color: #c7458a;
-    font-size: 1.6rem;
+    color: #180045;
+    font-size: 2rem;
+    text-shadow: 0.1em 0.1em #efdddd;
+    margin-top: -2rem;
 }
 
 #info {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin-left: 5rem;
     position: absolute;
     top: 25rem;
 }
+
 
 #botonValidar {
     border-radius: 10px;
@@ -181,7 +184,7 @@ display: flex;
 }
 
 #final {
-    background-color: #9d5353f5;
+    background-color: #590209;
     height: 4rem;
     position: absolute;
     top: 47.2rem;
@@ -195,17 +198,20 @@ display: flex;
     height: 1rem;
 }
 
-#leyend{
+#leyend {
     margin-left: 44rem;
     color: #190445;
     position: absolute;
     font-size: 2rem;
+    text-shadow: 0.1em 0.1em white;
 }
-#love{
+
+
+#love {
     width: 13rem;
     height: 10rem;
     position: absolute;
-    top: 9rem;
+    top: 8rem;
     left: 10rem;
     animation-name: girarb;
     animation-duration: 20s;
@@ -213,11 +219,26 @@ display: flex;
     animation-timing-function: linear;
     display: inline-block;
 }
-#price{
+
+#price {
     position: absolute;
     top: 3rem;
+    height: 2.1rem;
+    background-color: #ffd700ab;
 }
-#final1{
-    width: 40rem;
-    bottom: 2rem;
+
+#final1 {
+    bottom: 0rem;
+    color: #FFF9D6;
+    font-size: 1.7rem;
+    margin-top: 14rem;
+    position: absolute;
+    height: 3.5rem;
+    width: 37rem;
+    left: 2rem;
+    border-radius: 10px;
+}
+
+#list {
+    color: #809ba6;
 }

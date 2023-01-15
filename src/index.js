@@ -15,7 +15,5 @@ const resultado= document.getElementById("resultado");
     validador.addEventListener("click", function() {
     let creditCardNumber= document.getElementById("tarjeta");
     let creditCardMaskify= validator.maskify(creditCardNumber.value);
-    console.log (creditCardMaskify)
     creditCardNumber.value= creditCardMaskify;
-    console.log(creditCardNumber);
-    })
+    });

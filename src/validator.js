@@ -39,7 +39,7 @@ const validator = {
       for (let i=0; i< masked.length;i++){
       cat+="#" 
       }
-      console.log (masked)
+
       return cat+=guardar
     }
   }
