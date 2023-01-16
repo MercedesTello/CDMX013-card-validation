@@ -43,7 +43,9 @@ const validator = {
       return cat+=guardar
     }
   }
+  
   }
+  
 
 
 //validator.isValid('4137894711755904'); // true
