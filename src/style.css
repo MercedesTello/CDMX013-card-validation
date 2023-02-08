@@ -170,12 +170,13 @@ input {
 
 #discos {
     width: 517px;
-    margin-top: 0rem;
+    margin-top: 1rem;
     margin-left: 38rem;
+    margin-bottom: 3.8rem;
 }
 
 #title {
-    olor: #180045;
+    color: #180045;
     font-size: 1.6rem;
     text-shadow: 0.1em 0.1em #efdddd;
     margin-top: -2rem;
