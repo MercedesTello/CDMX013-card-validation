@@ -1,6 +1,7 @@
 /* @media screen and (min-width: 480px) and (max-width: 1180px) { */
 * {
     margin: 0;
+    
 }
 
 
@@ -18,6 +19,7 @@ body {
 
 .container {
     margin: 0;
+    display: flex;
 }
 
 header {
@@ -27,8 +29,7 @@ header {
 
 #options {
     display: flex;
-    margin: 0;
-    height: 4rem;
+    height: 3.71rem;
 }
 
 .valida {
@@ -44,19 +45,19 @@ header {
 
 
 .box-logo {
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .header-logo {
     width: 88px;
-    display: inline-block;
+    /* display: inline-block; */
     /*coloca la imagen en linea*/
 }
 
 h1 {
     font-family: 'Vintage Magic';
     color: #E09F3E;
-    font-size: 2.4rem;
+    font-size: 2.rem;
     position: absolute;
     margin: 0 0 10px 20px;
     margin-top: -4.3rem;
@@ -71,19 +72,20 @@ h2 {
 }
 
 #price {
+    top: -18rem;
+    background-image: url(./imagenes/oferta.png);
+    background-size: cover;
     font-size: 1.7rem;
-    margin-top: 19rem;
+    margin-top: 22rem;
     position: absolute;
-    height: 1.5rem;
-    width: 6rem;
-    left: 13rem;
-    border-radius: 10px;
+    height: 4.5rem;
+    width: 5rem;
+    left: 1rem;
 }
 
-.logo {
-    text-align: center;
-    display: inline-block;
-    width: 70%;
+
+#logos {
+  position: absolute;
 }
 
 ul {
@@ -110,12 +112,12 @@ a {
     cursor: pointer;
     color: #e9d5da;
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     position: absolute;
     font-size: 10;
-    margin-left: 7rem;
-
+    margin-left: -3rem;
 }
+
 
 a:focus,
 a:hover {
@@ -156,9 +158,9 @@ input {
 
 .contenedor {
     display: flex;
-    width: 34rem;
-    height: 28rem;
-    margin-left: 48px;
+    width: 31rem;
+    height: 20rem;
+    margin-left: 2px;
     padding: 50px 0;
     text-align: center;
     position: absolute;
@@ -169,24 +171,24 @@ input {
 
 
 #discos {
-    width: 517px;
-    margin-top: 1rem;
-    margin-left: 38rem;
-    margin-bottom: 3.8rem;
+    width: 455px;
+    margin-top: 3rem;
+    margin-left: 34rem;
 }
+
 
 #title {
     color: #180045;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-shadow: 0.1em 0.1em #efdddd;
-    margin-top: -2rem;
+    margin-top: -3rem;
 }
 
 #info {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin-left: 5rem;
     position: absolute;
-    top: 25rem;
+    top: 17rem;
 }
 
 
@@ -200,7 +202,7 @@ input {
 }
 
 #final {
-    height: 5rem;
+    height: 2rem;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -210,11 +212,12 @@ input {
 
 #sound {
     position: absolute;
-    top: 20rem;
+    top: 14rem;
     left: 13rem;
     height: 1rem;
     width: 7rem;
 }
+
 
 #leyend {
     margin-left: 42rem;
@@ -228,11 +231,11 @@ input {
 
 
 #love {
-    width: 13rem;
-    height: 10rem;
+    width: 9rem;
+    height: 7rem;
     position: absolute;
-    top: 8rem;
-    left: 10rem;
+    top: 5.5rem;
+    left: 14rem;
     animation-name: girarb;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -240,17 +243,11 @@ input {
     display: inline-block;
 }
 
-#price {
-    position: absolute;
-    top: 3rem;
-    height: 2.1rem;
-    background-color: #ffd700ab;
-}
 
 #final1 {
-    bottom: 0rem;
+    bottom: -2rem;
     color: #FFF9D6;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     position: absolute;
     height: 3.5rem;
     left: 2rem;
@@ -258,4 +255,18 @@ input {
 
 #list {
     color: #809ba6;
+}
+#frase{
+    display: flex;
+    margin-bottom: auto;
+
+
+}
+#lema{
+    position: absolute;
+    color: #190445;
+    left: 35rem;
+    font-size: 2rem;
+    text-shadow: 0.1em 0.1em #efdddd;
+    top: 6rem
 }
