@@ -11,28 +11,28 @@
 </head>
 
 <body>
-<div class="container">
-  <header><!--aqui va todo lo del encaberzado de la pagina-->
-    <nav id="options">
-      <div class="box-logo">
-        <img class="header-logo" src="./imagenes/disco.jpg" alt="">
-        <h1>reGGcord Box</h1>
-      </div>
-      <ul> <!--.esta es etiqueta de tipo bloque y es hija de la etiqueta nav-->
-        <!--la etiqueta nav es para navegar en el menu-->
-        <li><a href="#">Acerca de</a></li>
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Subastas</a></li>
-        <li><a href="#">Viniles en oferta</a></li>
-        <li><a href="#">Más</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+    <header><!--aqui va todo lo del encaberzado de la pagina-->
+      <nav id="options">
+        <div class="box-logo">
+          <img class="header-logo" src="./imagenes/disco.jpg" alt="">
+          <h1>reGGcord Box</h1>
+        </div>
+        <ul> <!--.esta es etiqueta de tipo bloque y es hija de la etiqueta nav-->
+          <!--la etiqueta nav es para navegar en el menu-->
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Subastas</a></li>
+          <li><a href="#">Viniles en oferta</a></li>
+          <li><a href="#">Más</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  
+
     <div class="contenedor">
-      
+
       <h3 id="title">Oferta <br>Travelers All Stars vinil de colección</h3>
       <img id="love" src="./imagenes/image 23.png" height="250" alt="Travelers All Stars">
       <audio controls id="sound">
@@ -50,23 +50,25 @@
         <input type="numero" placeholder="Ingresa tu tarjeta" id="tarjeta" size="16" tabindex="16" maxlength="16" />
         <div id="resultado"></div>
         <button id="botonValidar">Validar </button>
+        <style>
+          @keyframes girarb {
+            from {
+              transform: rotate(360deg);
+            }
+
+            to {
+              transforme: rotate(0deg);
+            }
+          }
+        </style>
       </section>
 
-    <div class="logo">
-      <b id="leyend">Dónde entre más viejo, más valioso</b>
-      <img src="./imagenes/vinil.png" id="discos">
-     <style>
-       @keyframes girarb{
-        from{
-          transform: rotate(360deg);
-        }to{
-          transforme: rotate(0deg);
-        }
-      }
-     </style>
+      <main class="logo">
+        <b id="leyend">Dónde entre más viejo, más valioso</b>
+        <img src="./imagenes/vinil.png" id="discos">
+      </main>
     </div>
   </div>
-</div>
 
   <footer id="final">
     <p id="final1">©Copyright 2050 de nadie. Todos los derechos revertidos.</p>
