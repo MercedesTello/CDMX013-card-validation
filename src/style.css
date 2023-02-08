@@ -1,13 +1,11 @@
-@media screen and (min-width: 480px) and (max-width: 1180px) {
-    * {
-        margin: 0;
-    }
+/* @media screen and (min-width: 480px) and (max-width: 1180px) { */
+* {
+    margin: 0;
 }
 
 
+
 body {
-    display: flex;
-    flex-wrap: wrap;
     /* selctores*/
     font-family: 'Nanum Pen Script', cursive;
     font-size: 18px;
@@ -15,14 +13,18 @@ body {
     /*com la diagonal busca la carpeta dela imagen*/
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
+}
+
+.container {
+    margin: 0;
 }
 
 header {
-    flex-basis: 20rem;
-    flex-grow: 1;
     background: #590209;
-
+    margin: 0;
 }
+
 #options {
     display: flex;
     margin: 0;
@@ -153,34 +155,28 @@ input {
 }
 
 .contenedor {
-    flex-basis: 0;
-    flex-grow: 999;
-    min-width: 50%;
+    display: flex;
     width: 34rem;
-    height: 33rem;
-    /* margin-left: 48px; */
-    padding: 24px 0;
+    height: 28rem;
+    margin-left: 48px;
+    padding: 50px 0;
     text-align: center;
     position: absolute;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-    /* flex-direction: column; */
+    flex-direction: column;
     top: 6rem;
 }
 
-.grid {
-    display: flex;
-
-}
 
 #discos {
-    width: 554px;
-    margin-top: 7rem;
+    width: 517px;
+    margin-top: 0rem;
     margin-left: 38rem;
 }
 
 #title {
-    color: #180045;
-    font-size: 2rem;
+    olor: #180045;
+    font-size: 1.6rem;
     text-shadow: 0.1em 0.1em #efdddd;
     margin-top: -2rem;
 }
@@ -203,14 +199,12 @@ input {
 }
 
 #final {
-    flex-basis: 20rem;
-    flex-grow: 1;
-    margin: 0;
-    background-color: #590209;
-    height: 4rem;
+    height: 5rem;
     position: absolute;
-    top: 48.7rem;
-    width: 73.7rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #590209c7;
 }
 
 #sound {
@@ -222,7 +216,9 @@ input {
 }
 
 #leyend {
-    margin-left: 44rem;
+    margin-left: 42rem;
+    width: 17rem;
+    top: 1.5rem;
     color: #190445;
     position: absolute;
     font-size: 2rem;
@@ -254,12 +250,9 @@ input {
     bottom: 0rem;
     color: #FFF9D6;
     font-size: 1.7rem;
-    margin-top: 14rem;
     position: absolute;
     height: 3.5rem;
-    width: 37rem;
     left: 2rem;
-    border-radius: 10px;
 }
 
 #list {
